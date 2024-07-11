@@ -299,6 +299,8 @@ function hide(){
     entry.style.display="none";
     edit.style.display="none";
     bool4=false;
+    bool3=false;
+    bool2=false;
 }
 o4.addEventListener("mousedown",function(){
     hide();
