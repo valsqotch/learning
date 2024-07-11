@@ -1,0 +1,129 @@
+*{
+    margin:0px;
+}
+body{
+    width:100vw;
+    height:100vh;
+    background-color:rgb(200,200,200);
+}
+#q-contain{
+    border:10px solid black;
+    position:absolute;
+    left:50%;
+    top:20%;
+    transform: translate(-50%,0);
+    width:60vw;
+    height:50vh;
+    font-size:100px;
+    overflow: hidden;
+}
+#zhi{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    user-select:none;
+}
+#entry{
+    display:none;
+    position:absolute;
+    transform:translate(-50%,-50%);
+    font-size:40px;
+    left:50%;
+    top:50%;
+    font-family:system-ui;
+    font-weight:700;
+}
+#edit{
+    display:none;
+    font-family:system-ui;
+    font-size:60px;
+    font-weight:600;
+    height:100%;
+    user-select: none;
+}
+#ipt{
+    position:absolute;
+    left:50%;
+    bottom:5%;
+    transform:translate(-50%,0);
+    font-size:80px;
+    height:80px;
+    opacity:70%;
+}
+#tool{
+    opacity:80%;
+    height:80px;
+    width:80px;
+    background-color:black;
+    position:absolute;
+    bottom:5%;
+    left:10%;
+    border-radius: 5%;
+    color:white;
+    font-size: 80px;
+    user-select: none;
+}
+#list{
+    display:none;
+    position:absolute;
+    bottom:80px;
+    background-color:black;
+    opacity:80%;
+    width:180px;
+    height:200px;
+    font-size:30px;
+    transform:translate(-50px,0);
+}
+.option{
+    height:37px;
+    width:100%;
+    text-align: center;
+    padding-top:10px;
+    border-bottom:3px white solid;
+}
+.option:hover{
+    background:gray;
+}
+#blocks{
+    white-space:nowrap;
+    overflow-y: auto;
+    overflow-x:hidden;
+    height:301px;
+    width:50vw;
+}
+.ablock{
+    position:relative;
+    user-select: none;
+    left:10vw;
+    height: 100px;
+    width:40vw;
+    display:block;
+    font-weight:500;
+    background-color:rgb(30,30,30);
+    margin-bottom: 30px;
+    color:rgb(191, 191, 191);
+    font-size:40px;
+    
+}
+#initiate{
+    position:absolute;
+    left:50%;
+    top:50%;
+    width:25vw;
+    text-align: center;
+    transform: translate(-50%,-50%);
+    background-color:rgb(200,200,250) ;
+    user-select: none;
+}
+#initiate:hover{
+    background-color: white;
+}
+#making{
+    position:absolute;
+    display:none;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    font-size:60px;
+}
